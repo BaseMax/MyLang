@@ -2,7 +2,7 @@
   "name": "mylang",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "parser.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "gen-parser": "nearleyc mylang.grammar -o mylang.js"
@@ -20,6 +20,7 @@
   "homepage": "https://github.com/BaseMax/MyLang#readme",
   "dependencies": {
     "mz": "^2.7.0",
-    "nearley": "^2.20.1"
+    "nearley": "^2.20.1",
+    "path": "^0.12.7"
   }
 }
