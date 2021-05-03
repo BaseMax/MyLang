@@ -1,0 +1,25 @@
+{
+  "name": "mylang",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "gen-parser": "nearleyc mylang.grammar -o mylang.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BaseMax/MyLang.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BaseMax/MyLang/issues"
+  },
+  "homepage": "https://github.com/BaseMax/MyLang#readme",
+  "dependencies": {
+    "mz": "^2.7.0",
+    "nearley": "^2.20.1"
+  }
+}
