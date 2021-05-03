@@ -65,3 +65,6 @@ while i <= n {
 }
 ```
 
+© Copyright Max Base 2021
+
+Thanks from Toby Ho
