@@ -9,6 +9,12 @@ A hobby compiler build by nearley.
 - AST Tree as JSON format
 - Generate JS as intermediate code
 
+## Statements
+
+- While loop
+- Variable
+- Print
+
 ## Using
 
 ```
