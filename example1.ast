@@ -1,8 +1,43 @@
-{
-  "type": "var_assignment",
-  "varname": [
-    "p",
-    "i"
-  ],
-  "value": ":="
-}
+[
+  {
+    "type": "var_assignment",
+    "varname": [
+      "p",
+      "i"
+    ],
+    "value": ":="
+  },
+  {
+    "type": "var_assignment",
+    "varname": [
+      "n"
+    ],
+    "value": ":="
+  },
+  {
+    "type": "while_loop",
+    "condition": {
+      "type": "binary_expression",
+      "left": [
+        "n"
+      ],
+      "operator": "<",
+      "right": 10
+    },
+    "body": [
+      {
+        "type": "var_assignment",
+        "varname": [
+          "n"
+        ],
+        "value": ":="
+      },
+      {
+        "type": "print_statement",
+        "expression": [
+          "n"
+        ]
+      }
+    ]
+  }
+]

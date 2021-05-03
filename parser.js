@@ -20,6 +20,7 @@ async function main() {
 		console.log("Parse succeeded.")
 		console.log(parser.results)
 	} catch(e) {
+		console.log(e)
 		console.log(`Parse failed: ${e.message}`)
 	}
 }
