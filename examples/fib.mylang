@@ -1,0 +1,11 @@
+i := 1
+n := 10
+fi := 1
+fii := 1
+while i <= n {
+	print fi
+	temp := fi + fii
+	fi := fii
+	fii := temp
+	i := i +1
+}

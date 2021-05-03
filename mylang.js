@@ -65,13 +65,15 @@ var grammar = {
         	return {
         		type: "var_assignment",
         		varname: data[0],
-        		value: data[2]
+        		value: data[4]
         	}
         }
         	},
     {"name": "identifier$ebnf$1", "symbols": [/[a-z]/]},
     {"name": "identifier$ebnf$1", "symbols": ["identifier$ebnf$1", /[a-z]/], "postprocess": function arrpush(d) {return d[0].concat([d[1]]);}},
-    {"name": "identifier", "symbols": ["identifier$ebnf$1"], "postprocess": id},
+    {"name": "identifier", "symbols": ["identifier$ebnf$1"], "postprocess": 
+        data => data[0].join("")
+        	},
     {"name": "number", "symbols": ["digits", {"literal":"."}, "digits"], "postprocess": 
         data => Number(data[0] + "." + data[2])
         	},

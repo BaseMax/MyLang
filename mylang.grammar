@@ -73,13 +73,15 @@ var_assignment
 			return {
 				type: "var_assignment",
 				varname: data[0],
-				value: data[2]
+				value: data[4]
 			}
 		}
 	%}
 
 identifier
-	-> [a-z]:+ {% id %}
+	-> [a-z]:+ {%
+		data => data[0].join("")
+	%}
 
 number
 	-> digits "." digits {%
