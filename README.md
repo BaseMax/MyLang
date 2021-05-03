@@ -14,6 +14,7 @@ A hobby compiler build by nearley.
 - While loop
 - Variable
 - Print
+- Operator `+ - * / >= <= > < = :=`
 
 ## Using
 
@@ -70,6 +71,14 @@ while i <= n {
 	i := i +1
 }
 ```
+
+## TODO
+
+- For
+- Function
+- Array value
+- String value
+- Boolean value
 
 © Copyright Max Base 2021
 
