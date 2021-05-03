@@ -26,9 +26,9 @@ async function main() {
 		await fs.writeFile(outputFilename, jsCode)
 
 		console.log("Parse succeeded.")
-		console.log(parser.results)
+		// console.log(parser.results)
 	} catch(e) {
-		console.log(e)
+		// console.log(e)
 		console.log(`Parse failed: ${e.message}`)
 	}
 }
@@ -63,7 +63,7 @@ function generateJSExpression(expression) {
 }
 
 function generateJS(statements, declaredVariables) {
-	console.log(declaredVariables)
+	// console.log(declaredVariables)
 
 	const lines = []
 	for (let statement of statements) {
