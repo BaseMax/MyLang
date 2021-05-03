@@ -67,4 +67,4 @@ while i <= n {
 
 © Copyright Max Base 2021
 
-Thanks from Toby Ho
+Thanks from Toby Ho and Nearley (https://nearley.js.org/)
