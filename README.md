@@ -44,7 +44,7 @@ while n < 10 {
 }
 ```
 
-### Fibunacci
+### Fibonacci
 
 ```
 $ node parser.js examples/fib.mylang
